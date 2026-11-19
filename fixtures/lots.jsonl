@@ -1,7 +1,7 @@
-{"row_id":"lots:000001","lot":"L0","process":"silk-v3","unit":"piece","opened_period":"2026-11","quality_grade":"A"}
-{"row_id":"lots:000002","lot":"L1","process":"silk-v3","unit":"piece","opened_period":"2026-11","quality_grade":"B"}
-{"row_id":"lots:000003","lot":"L2","process":"silk-v3","unit":"piece","opened_period":"2026-11","quality_grade":"A"}
-{"row_id":"lots:000004","lot":"L3","process":"silk-v3","unit":"piece","opened_period":"2026-11","quality_grade":"B"}
-{"row_id":"lots:000005","lot":"L4","process":"silk-v3","unit":"piece","opened_period":"2026-11","quality_grade":"A"}
-{"row_id":"lots:000006","lot":"L5","process":"silk-v4","unit":"piece","opened_period":"2026-11","quality_grade":"B"}
-{"row_id":"lots:000007","lot":"L6","process":"silk-v4","unit":"piece","opened_period":"2026-11","quality_grade":"A"}
+{"row_id":"lots:000001","lot":"L0","process":"silk-v3","unit":"piece","opened_period":"2026-11","quality_grade":"A","material":"M1"}
+{"row_id":"lots:000002","lot":"L1","process":"silk-v3","unit":"piece","opened_period":"2026-11","quality_grade":"B","material":"M1"}
+{"row_id":"lots:000003","lot":"L2","process":"silk-v3","unit":"piece","opened_period":"2026-11","quality_grade":"A","material":"M1"}
+{"row_id":"lots:000004","lot":"L3","process":"silk-v3","unit":"piece","opened_period":"2026-11","quality_grade":"B","material":"M1"}
+{"row_id":"lots:000005","lot":"L4","process":"silk-v3","unit":"piece","opened_period":"2026-11","quality_grade":"A","material":"M1"}
+{"row_id":"lots:000006","lot":"L5","process":"silk-v4","unit":"piece","opened_period":"2026-11","quality_grade":"B","material":"M1-alt"}
+{"row_id":"lots:000007","lot":"L6","process":"silk-v4","unit":"piece","opened_period":"2026-11","quality_grade":"A","material":"M1-alt"}

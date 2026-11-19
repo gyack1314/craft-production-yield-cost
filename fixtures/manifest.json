@@ -6,9 +6,10 @@
     {
       "file": "fixtures/lots.jsonl",
       "rows": 7,
-      "sha256": "2e9450d12e8f71d857a44e828e7219074e6122ab760f563fd47312e7881e0996",
+      "sha256": "c2e0ea23d2696b2fa9d8129a463d3dd6fa7a059b461800383f91d9d33fd06aba",
       "columns": [
         "lot",
+        "material",
         "opened_period",
         "process",
         "quality_grade",
@@ -21,8 +22,8 @@
     },
     {
       "file": "fixtures/movements.jsonl",
-      "rows": 9,
-      "sha256": "f30d9ddf6842f4b74df260be0d4472873c36d539b474a915d185d3bf1be29776",
+      "rows": 18,
+      "sha256": "595f39be0e0693344d7c430bab66a2358a01e2f77022abd9697bae64e87a980e",
       "columns": [
         "external_cost_minor",
         "kind",

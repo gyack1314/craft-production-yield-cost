@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "business": "craft-production-yield-cost",
+  "synthetic": true,
+  "entities": [
+    "work-order-a",
+    "lot-b1",
+    "lot-b2",
+    "process-dye-v3",
+    "material-batch-1",
+    "approved-substitute-2",
+    "close-2026-11"
+  ],
+  "event_types": [
+    "material-issued",
+    "operation-reported",
+    "quality-failed",
+    "rework-started",
+    "downgraded",
+    "material-returned",
+    "period-closed",
+    "labor-corrected"
+  ],
+  "records": [
+    {
+      "event_id": "m01",
+      "type": "material-issued",
+      "lot": "lot-b1",
+      "material": "silk-dye-a",
+      "qty_g": 500,
+      "cost_cny": 210
+    },
+    {
+      "event_id": "m02",
+      "type": "operation-reported",
+      "lot": "lot-b1",
+      "step": "dye-v3",
+      "input": 20,
+      "good": 16,
+      "labor_min": 480
+    },
+    {
+      "event_id": "m03",
+      "type": "quality-failed",
+      "lot": "lot-b1",
+      "qty": 4,
+      "disposition": "rework_or_downgrade"
+    },
+    {
+      "event_id": "m04",
+      "type": "downgraded",
+      "lot": "lot-b1",
+      "qty": 2,
+      "sku": "scarf-grade-b"
+    },
+    {
+      "event_id": "m05",
+      "type": "material-returned",
+      "lot": "lot-b1",
+      "material": "silk-dye-a",
+      "qty_g": 30,
+      "posted_at": "2026-12-03"
+    },
+    {
+      "event_id": "m06",
+      "type": "period-closed",
+      "period": "2026-11",
+      "closed_at": "2026-12-01"
+    }
+  ],
+  "facts": {
+    "work_orders": 4,
+    "lots": 6,
+    "process_steps": 5
+  }
+}

@@ -68,9 +68,6 @@
       "closed_at": "2026-12-01"
     }
   ],
-  "facts": {
-    "work_orders": 4,
-    "lots": 6,
-    "process_steps": 5
-  }
+  "facts": {},
+  "observed_record_count": 6
 }

@@ -1,0 +1,9 @@
+{"row_id":"movements:000001","move_id":"MV1","source":"external","target":"L0","kind":"raw","quantity":"20","unit":"piece","external_cost_minor":60000}
+{"row_id":"movements:000002","move_id":"MV2","source":"L0","target":"L1","kind":"rework","quantity":"5","unit":"piece","external_cost_minor":0}
+{"row_id":"movements:000003","move_id":"MV3","source":"L1","target":"L0","kind":"recovered","quantity":"1","unit":"piece","external_cost_minor":0}
+{"row_id":"movements:000004","move_id":"MV4","source":"L0","target":"sale-A","kind":"sale","quantity":"14","unit":"piece","external_cost_minor":0}
+{"row_id":"movements:000005","move_id":"MV5","source":"L1","target":"sale-B","kind":"downgraded","quantity":"3","unit":"piece","external_cost_minor":0}
+{"row_id":"movements:000006","move_id":"MV6","source":"L1","target":"scrap","kind":"scrap","quantity":"1","unit":"piece","external_cost_minor":0}
+{"row_id":"movements:000007","move_id":"MV7","source":"L0","target":"wip","kind":"wip","quantity":"2","unit":"piece","external_cost_minor":0}
+{"row_id":"movements:000008","move_id":"MV8","source":"L2","target":"L3","kind":"rework","quantity":"2","unit":"piece","external_cost_minor":0}
+{"row_id":"movements:000009","move_id":"MV9","source":"L3","target":"L2","kind":"recovered","quantity":"2","unit":"piece","external_cost_minor":0}

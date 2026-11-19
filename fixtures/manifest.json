@@ -1,0 +1,123 @@
+{
+  "schema_version": 2,
+  "synthetic": true,
+  "project": "返工循环与联产品的工艺成本可比性分析",
+  "tables": [
+    {
+      "file": "fixtures/lots.jsonl",
+      "rows": 7,
+      "sha256": "2e9450d12e8f71d857a44e828e7219074e6122ab760f563fd47312e7881e0996",
+      "columns": [
+        "lot",
+        "opened_period",
+        "process",
+        "quality_grade",
+        "row_id",
+        "unit"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    },
+    {
+      "file": "fixtures/movements.jsonl",
+      "rows": 9,
+      "sha256": "f30d9ddf6842f4b74df260be0d4472873c36d539b474a915d185d3bf1be29776",
+      "columns": [
+        "external_cost_minor",
+        "kind",
+        "move_id",
+        "quantity",
+        "row_id",
+        "source",
+        "target",
+        "unit"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    },
+    {
+      "file": "fixtures/labor.jsonl",
+      "rows": 7,
+      "sha256": "88899907d5facec4c53bc636f6a54aaecfb1486cdded1b2c32384c33ca89af42",
+      "columns": [
+        "lot",
+        "minutes",
+        "rate_minor_per_hour",
+        "received_batch",
+        "revision",
+        "row_id"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    },
+    {
+      "file": "fixtures/shared_pools.jsonl",
+      "rows": 1,
+      "sha256": "1fe9af5788c19ac6da3e7f7b862ce1afd5d205804a371b0fa94d029c9710ddb4",
+      "columns": [
+        "amount_minor",
+        "basis",
+        "members",
+        "period",
+        "pool",
+        "row_id"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    },
+    {
+      "file": "fixtures/reference_values.jsonl",
+      "rows": 3,
+      "sha256": "a7e9415abf3aa0b74c12da14c5e3875237741fd2322abc37d2fd1e4272e332de",
+      "columns": [
+        "minor_per_unit",
+        "product",
+        "received_batch",
+        "revision",
+        "row_id",
+        "unit"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    },
+    {
+      "file": "fixtures/process_approvals.jsonl",
+      "rows": 2,
+      "sha256": "06233ef548bec1c2a1a4fada0a4ab3d4f96078b68c59086a821fccd09fc1d586",
+      "columns": [
+        "approved",
+        "grade",
+        "material",
+        "process",
+        "row_id"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    },
+    {
+      "file": "fixtures/adjustments.jsonl",
+      "rows": 1,
+      "sha256": "23fa33b67a3a423cc5b8bb68d8c2dae4b60adb5b66333e89e2bcc0d0ff867aa1",
+      "columns": [
+        "adjustment",
+        "amount_minor",
+        "kind",
+        "lot",
+        "original_period",
+        "posting_period",
+        "received_batch",
+        "row_id"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    }
+  ],
+  "scope": "本地合成的原始来源观察、业务政策与操作请求。"
+}

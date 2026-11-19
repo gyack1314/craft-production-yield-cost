@@ -1,0 +1,3 @@
+{"row_id":"reference_values:000001","product":"sale-A","minor_per_unit":15000,"unit":"piece","revision":1,"received_batch":1}
+{"row_id":"reference_values:000002","product":"sale-B","minor_per_unit":6000,"unit":"piece","revision":1,"received_batch":2}
+{"row_id":"reference_values:000003","product":"recovered","minor_per_unit":1000,"unit":"piece","revision":1,"received_batch":1}
